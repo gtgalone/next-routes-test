@@ -1,0 +1,17 @@
+{
+  "name": "next-routes-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "next": "latest",
+    "next-routes": "^1.0.17",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
